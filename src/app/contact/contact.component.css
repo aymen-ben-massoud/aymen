@@ -1,0 +1,14 @@
+.title{
+    font-weight: 700;
+    color: #ccf381;
+  letter-spacing:1px;
+    line-height: 1.1;
+ 
+   
+}
+.blurdiv{
+  backdrop-filter: blur(15px); 
+}
+div{
+  color: #dfdfe0;
+}

@@ -1,0 +1,70 @@
+
+.text > h1{
+  font-size: 70px;
+  width: 100px;
+  font-weight: 700;
+  color: #ccf381;
+letter-spacing:1px;
+  line-height: 1.1;
+display: flex;
+align-items: end;
+border:3px solid rgb(255, 255, 255);
+backdrop-filter: blur(10px); 
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.text > h1 > span{
+  color: rgb(255, 255, 255);
+}
+.text > h4{
+ color: rgb(255, 255, 255);
+}
+.text > p{
+  color: rgb(255, 255, 255);
+
+}
+
+img{
+  height: 500px;
+  width: 500px;
+}
+.btn{
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+     
+   backdrop-filter: blur(30px);  
+  width: 250px!important;
+
+  color: rgb(255, 255, 255);
+border: 1px solid #6e46ff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  border-radius: 26px;
+  padding: 9px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  transition: all 0.5s;
+  -webkit-animation: clippath 3s infinite linear;
+          animation: clippath 3s infinite linear;
+}
+.btn:hover{
+ 
+  transition: 0.7s ease-in-out ;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  opacity: 0.8;
+}
+
+   
+@media (max-width: 700px) {
+  .text > h1{
+    font-size: 65px;
+  }
+.row{
+  margin-top: 80px;
+}
+.text{
+  text-align: center;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+}
